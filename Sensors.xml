@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\evely\Downloads\b-to-the-fourth-main\Sensors.kicad_sch</source>
+    <date>01/17/2023 8:46:28 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sensors.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">0.1uF +-10% 50V X7R 0603</field>
+      </fields>
+      <libsource lib="mainboard" part="C_Small" description=""/>
+      <property name="Description" value="0.1uF +-10% 50V X7R 0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d6b1f79-10c0-46de-b37b-2450bfbba4bd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">0.1uF +-10% 50V X7R 0603</field>
+      </fields>
+      <libsource lib="mainboard" part="C_Small" description=""/>
+      <property name="Description" value="0.1uF +-10% 50V X7R 0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8576e156-4da6-4c24-b51b-2ca52e31261b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">0.1uF +-10% 50V X7R 0603</field>
+      </fields>
+      <libsource lib="mainboard" part="C_Small" description=""/>
+      <property name="Description" value="0.1uF +-10% 50V X7R 0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>585b92a5-8515-4d14-9456-2d7cea90a15e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">0.1uF +-10% 50V X7R 0603</field>
+      </fields>
+      <libsource lib="mainboard" part="C_Small" description=""/>
+      <property name="Description" value="0.1uF +-10% 50V X7R 0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27ea65f9-ef9b-4b81-aae1-08454cb7b516</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20b09645-d2c5-4da3-a044-75ab35aaf04c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">10k 0603</field>
+      </fields>
+      <libsource lib="mainboard" part="R-US_R0603" description=""/>
+      <property name="Description" value="10k 0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c5e1cfa-43a5-41d1-9b8f-30d01262190b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">10k 0603</field>
+      </fields>
+      <libsource lib="mainboard" part="R-US_R0603" description=""/>
+      <property name="Description" value="10k 0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cada4620-6251-4b5b-b8e6-baf8edf1f059</tstamps>
+    </comp>
+    <comp ref="U01">
+      <value>BMI270</value>
+      <footprint>Sensor_Motion:XDCR_BMI270</footprint>
+      <fields>
+        <field name="MANUFACTURER">Bosch Sensortec</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.87mm</field>
+        <field name="PATREV">1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="mainboard" part="BMI270" description=""/>
+      <property name="PATREV" value="1.0"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.87mm"/>
+      <property name="MANUFACTURER" value="Bosch Sensortec"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab5a2576-f0b8-4df2-ac33-2c27e0170a70</tstamps>
+    </comp>
+    <comp ref="U02">
+      <value>BMM150</value>
+      <footprint>Sensor_Motion:XDCR_BMM150</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="DESCRIPTION">BMM150 Series 3.6 V Surface Mount Three-Axis Geomagnetic Sensor - WLCSP-12</field>
+        <field name="MF">Bosch Sensortec</field>
+        <field name="MP">BMM150</field>
+        <field name="PACKAGE">WLCSP-12 Bosch</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <libsource lib="mainboard" part="BMM150" description=""/>
+      <property name="MF" value="Bosch Sensortec"/>
+      <property name="DESCRIPTION" value="BMM150 Series 3.6 V Surface Mount Three-Axis Geomagnetic Sensor - WLCSP-12"/>
+      <property name="PRICE" value="None"/>
+      <property name="MP" value="BMM150"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="PACKAGE" value="WLCSP-12 Bosch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d65ad30-8f95-4252-9b04-dede1b43d3d0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainboard" part="BMI270">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMI270</field>
+        <field name="Footprint">XDCR_BMI270</field>
+        <field name="PATREV">1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.87mm</field>
+        <field name="MANUFACTURER">Bosch Sensortec</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO" type="bidirectional"/>
+        <pin num="2" name="ASDX" type="bidirectional"/>
+        <pin num="3" name="ASCX" type="bidirectional"/>
+        <pin num="4" name="INT1" type="bidirectional"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GNDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="bidirectional"/>
+        <pin num="10" name="OSCB" type="input"/>
+        <pin num="11" name="OSDO" type="output"/>
+        <pin num="12" name="CSB" type="input"/>
+        <pin num="13" name="SCX" type="input"/>
+        <pin num="14" name="SDX" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainboard" part="BMM150">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMM150</field>
+        <field name="Footprint">XDCR_BMM150</field>
+        <field name="MF">Bosch Sensortec</field>
+        <field name="DESCRIPTION">BMM150 Series 3.6 V Surface Mount Three-Axis Geomagnetic Sensor - WLCSP-12</field>
+        <field name="PRICE">None</field>
+        <field name="MP">BMM150</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="PACKAGE">WLCSP-12 Bosch</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="PS" type="input"/>
+        <pin num="A3" name="SCK" type="input"/>
+        <pin num="A5" name="CSB" type="input"/>
+        <pin num="B2" name="VDDIO" type="power_in"/>
+        <pin num="B4" name="SDI" type="bidirectional"/>
+        <pin num="C1" name="SDO" type="output"/>
+        <pin num="C5" name="GND" type="power_in"/>
+        <pin num="D2" name="INT" type="output"/>
+        <pin num="D4" name="DRDY" type="output"/>
+        <pin num="E1" name="GND" type="power_in"/>
+        <pin num="E3" name="GND" type="power_in"/>
+        <pin num="E5" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainboard" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainboard" part="R-US_R0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_R0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Users\evely\Documents\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3.3V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U01" pin="12" pinfunction="CSB" pintype="input"/>
+      <node ref="U01" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U01" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U02" pin="A1" pinfunction="PS" pintype="input"/>
+      <node ref="U02" pin="B2" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U02" pin="E5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U01" pin="1" pinfunction="SDO" pintype="bidirectional"/>
+      <node ref="U01" pin="6" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U01" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U02" pin="A5" pinfunction="CSB" pintype="input"/>
+      <node ref="U02" pin="C1" pinfunction="SDO" pintype="output"/>
+      <node ref="U02" pin="C5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U02" pin="E1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U02" pin="E3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(U01-Pad2)">
+      <node ref="U01" pin="2" pinfunction="ASDX" pintype="bidirectional"/>
+      <node ref="U02" pin="B4" pinfunction="SDI" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Net-(U01-Pad3)">
+      <node ref="U01" pin="3" pinfunction="ASCX" pintype="bidirectional"/>
+      <node ref="U02" pin="A3" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(U01-Pad13)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U01" pin="13" pinfunction="SCX" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(U01-Pad14)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U01" pin="14" pinfunction="SDX" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="unconnected-(U01-Pad4)">
+      <node ref="U01" pin="4" pinfunction="INT1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(U01-Pad9)">
+      <node ref="U01" pin="9" pinfunction="INT2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(U01-Pad10)">
+      <node ref="U01" pin="10" pinfunction="OSCB" pintype="input+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(U01-Pad11)">
+      <node ref="U01" pin="11" pinfunction="OSDO" pintype="output+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(U02-PadD2)">
+      <node ref="U02" pin="D2" pinfunction="INT" pintype="output+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U02-PadD4)">
+      <node ref="U02" pin="D4" pinfunction="DRDY" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
